@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../assets/abc.png" alt="" />
+    <img src="../assets/abc.png" alt="" class="aa" />
   </div>
 </template>
 
@@ -8,8 +8,8 @@
 export default {}
 </script>
 
-<style>
-img {
+<style scope>
+.aa {
   width: 88%;
 }
 </style>
